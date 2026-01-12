@@ -3,11 +3,16 @@
 ## Introduction
 This project implements a complete pipeline for aerospace surface defect detection using Convolutional Neural Networks (CNNs) built with PyTorch. The trained models are deployed through a FastAPI, providing an interactive interface for uploading images and viewing defect predictions. This end-to-end solution covers dataset preparation, model training, evaluation, export, and deployment.
 
+## Description
+◦ Developed a CNN-based computer vision system to detect cracks, deformation, paint peel, and rivet damage.
+◦ Trained the model using transfer learning, data augmentation & class balancing, achieving ∼83.4% test accuracy.
+◦ Deployed a low-latency FastAPI inference backend with an image-upload web interface hosted on Render.
+
 ## Features
 
 - 🔍 **Real-time Detection**: Detect 4 types of aerospace defects (Crack, Deform, Paint Peel, Rivet Damage)
 - 📊 **Visual Results**: Bounding boxes with confidence scores
-- ⚡ **Fast Inference**: Optimized YOLOv8 model (~92% test accuracy)
+- ⚡ **Fast Inference**: Optimized YOLOv8 model
 - 🌐 **REST API**: Exposed endpoints for integration
 - 📱 **Responsive UI**: Clean, simple interface
 - ☁️ **Cloud Ready**: Deployed on Render
